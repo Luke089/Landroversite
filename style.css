@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200);
+
+body {
+		background: #D4D9DD url("./img/car_photo_380629.jpg");
+		background-size: 100%;
+		background-attachment:fixed;
+		
+		font-size: 12pt;
+		font-family: 'arial';
+		/* line-height: 1.8em; */
+		font-weight: 100;
+        
+	}
+
+
+
+#header-img img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 7px 7px 7px #000;
+    border-radius: 18px;
+} 
+
+.Engine-Types-title{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.menu-bar ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 26px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    
+    
+    
+}
+
+
+.menu-bar li {
+    list-style: none;
+    padding-left: 10px;
+    
+}
+
+.menu-bar ul li a{
+    
+    
+	border-radius: 5px;
+	color: #555;
+	background-color: #fff;
+	border-bottom-color: transparent;
+	box-shadow: 7px 7px 7px #000;
+    
+}
+
+
+
+
+.menu-bar ul li a:hover {
+		color: #f6f8f8;
+        background: darkblue;
+}
+
+    
+    
+.main-section{
+	border: 0px solid lightgrey;
+    border-radius: 10px;
+    background: rgb(136, 148, 160);
+    width: 67%;
+    margin: auto;
+    font-weight: 600;
+	align-items: center;
+    
+    opacity: 0.7;
+    box-shadow: 7px 7px 7px #000;
+    font-size: 15px;
+    height: 100%;
+    
+    
+}
+
+.types{
+    padding: 10px;
+}
+
+.RR-sport-engine-title{
+    padding: 10px;
+
+}
+
+.first-sec-title{
+    padding-top: 10px;
+}
+
+.sport-title{
+    font-size: 40px;
+}
+
+.sport-models-title{
+    font-size: 30px;
+}
+
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding-top: 35px;
+    width: 67%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.home-cards img {
+    width: 93%;
+    opacity: 0.9;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid rgb(139, 139, 139);
+    box-shadow: 7px 7px 7px #000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+    
+
+}
+.home-cards h3 {
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.home-cards p {
+    padding: 10px;
+}
+.home-cards a {
+    display: inline-block;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    color: #0004ebab;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bordercard{
+    border: 0px solid lightgrey;
+    border-radius: 10px;
+    background: lightslategray;
+    opacity: 0.7;
+    box-shadow: 7px 7px 7px #000
+}
+
+.bordercard p{
+    font-weight: 600;
+
+}
+
+.quotepadding-2{
+    padding-top: 16px;
+}
+
+.quotepadding-3{
+    padding-top: 16px;
+}
+
+.quotepadding-4{
+    padding-top: 16px;
+}
+
+
+#content-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    padding-top: 35px;
+    width: 67%;
+    margin: auto;
+}
+
+.container{
+    border: 0px solid;
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.container img{
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+
+}
+
+header{
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.box1-p{
+    padding: 30px;
+    padding-right: 35px;
+    font-size: 19px;
+}
+
+header h2{
+    font-weight: 800;
+    font-size: 26px;
+}
+
+header h3{
+    font-weight: 800;
+    color: teal;
+}
+
+.check-list li {
+		padding: 0.7em 0 0.7em 85px;
+		font-size: 1.2em;
+		background: url("./img/imagesicon-checkmark.png") 40px 1rem no-repeat;
+		
+        border-bottom: #ccc solid 1px;
+        
+}
+
+.check-list li:last-child{
+    border-bottom: 0;
+    
+}
+
+
+
+
+/* Footer */
+
+.footer-container{
+    
+    border: 8px solid rgb(46, 41, 41);
+    margin-top: 30px;
+    opacity: 0.7;
+    border-radius: 5px;
+    
+    
+}
+
+.footer{
+    width: 100%;
+    opacity: 1.0;
+    background-color: rgb(46, 41, 41);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 5px;
+    font-size: 12px;
+    justify-content: space-evenly;
+}
+
+.footer-heading ul li{
+    padding: 4px;
+    
+}
+
+
+.footer-heading ul li a{
+    color: #fff;
+}
+
+
+
+@media(max-width: 900px){
+    #header-img img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+        
+    
+    .menu-bar{
+        display: grid;
+        grid-gap: 20px;
+        
+    }
+
+    .menu-bar ul {
+        display: grid;
+        grid-gap: 1px;
+        width: 100%;
+        grid-template-columns:  1fr;
+    }
+
+    .menu-bar a{
+        
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        }
+
+    .main-section {
+        width: 100%;
+    }
+    
+    .home-cards{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        
+    }
+
+    #content-wrapper{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        line-height: 1.3rem;
+        position: relative;
+    }
+
+    .logo img{
+        position: absolute;
+        left: 600px;
+        top: 200px;
+    }
+
+    .footer-heading-footer-4{
+        padding-top: 60px;
+    }
+
+    .quotepadding-1{
+    padding-top: 16px;
+    }
+
+    .quotepadding-4{
+    padding-top: 34px;
+}
+}
+
+
+
+
+
+
+
+
+
+
